@@ -1,0 +1,270 @@
+/*@media all and (max-width: 350px) {
+    
+}
+.logo img:first-child {
+    display:none ;
+   }
+*/
+
+@media all and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 8%;
+    bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+    color: #404040;
+    cursor: pointer;
+   /* background-color: rgb(56, 56, 56);
+      border: solid 1px black;*/
+      
+  }
+
+ 
+
+  .logo {
+    display: inline;
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 200px;
+    vertical-align: middle;
+  }
+
+  .logo img:first-child {
+    margin-right: 20px;
+    /* border: solid 1px black;*/
+  }
+  .conteneur1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  #tsaumon1 {
+    background-image: url("../img/souligne_rose.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+    background-size: 35%;
+    
+  }
+
+  .conteneur1 h1 {
+    font-size: 50px;
+  }
+
+  .titres h2 {
+    font-size: 40px;
+  }
+  #Filet {
+    display: none;
+  }
+}
+
+@media all and (max-width: 720px) {
+  div.conteneurCARTE123 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /*order: dashed black;*/
+  }
+
+  .conteneurC1 {
+    margin-top: 50px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+  .d1 {
+    background-color: #ffffff;
+    background-size: contain;
+    animation: defilement1 10s linear infinite;
+  }
+
+  /*///////////////////////////ANIMATIONS//////////////////////////////*/
+
+  @keyframes defilement1 {
+    0% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    10% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    20% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    30% {
+      transform: translate(0%, 0);
+      opacity: 0;
+    }
+    40% {
+      transform: translate(0%, 0);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translate(0%, 0);
+      opacity: 0;
+    }
+    60% {
+      transform: translate(200%, 0);
+      opacity: 0;
+    }
+    70% {
+      transform: translate(200%, 0);
+      opacity: 0;
+    }
+    80% {
+      transform: translate(200%, 0);
+      opacity: 0;
+    }
+    90% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+  }
+
+  .conteneurC2 {
+    margin-top: 50px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+  .d2 {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: #ffffff;
+    background-size: contain;
+    animation: defilement2 10s linear infinite;
+  }
+  @keyframes defilement2 {
+    0% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    10% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    20% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    30% {
+      transform: translate(0%, 0);
+      opacity: 1;
+    }
+    40% {
+      transform: translate(0%, 0);
+      opacity: 1;
+    }
+
+    50% {
+      transform: translate(0%, 0);
+      opacity: 1;
+    }
+    60% {
+      transform: translate(-100%, 0);
+      opacity: 0;
+    }
+    70% {
+      transform: translate(-100%, 0);
+      opacity: 0;
+    }
+    80% {
+      transform: translate(-100%, 0);
+      opacity: 0;
+    }
+    90% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+  }
+
+  .conteneurC3 {
+    margin-top: 50px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+  .d3 {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: #ffffff;
+    background-size: contain;
+    animation: defilement3 10s linear infinite;
+  }
+  @keyframes defilement3 {
+    0% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    10% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    20% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    30% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    40% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+
+    50% {
+      transform: translate(100%, 0);
+      opacity: 1;
+    }
+    60% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    70% {
+      transform: translate(-100%, 0);
+      opacity: 1;
+    }
+    80% {
+      transform: translate(-100%, 0);
+      opacity: 1;
+    }
+    90% {
+      transform: translate(-200%, 0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+  }
+}
